@@ -2,7 +2,7 @@
   "name": "rules",
   "scripts": {
     "lint": "npx lint-staged",
-    "eslint": "eslint --fix",
+    "eslint": "eslint --fix .",
     "commit": "cz",
     "postinstall": "husky install"
   },
