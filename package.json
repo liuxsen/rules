@@ -3,7 +3,8 @@
   "scripts": {
     "lint": "npx lint-staged",
     "eslint": "eslint --fix",
-    "commit": "cz"
+    "commit": "cz",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.43.1",
